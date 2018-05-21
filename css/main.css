@@ -1,0 +1,47 @@
+h1.text-center {
+    font-family: 'Courgette', cursive;
+    font-size: 3.3em;
+}
+
+#button0:hover,
+#button1:hover,
+#button2:hover,
+#button3:hover,
+#button4:hover,
+#button5:hover {
+    font-family: 'Courgette', cursive;
+    background-color: black;
+    color: white;
+    font-size: 1.3em;
+}
+
+
+#image0:hover,
+#image1:hover,
+#image2:hover,
+#image3:hover,
+#image4:hover,
+#image5:hover {
+    opacity: 0.8;
+    -ms-transform: scale(1.1,1.1); /* IE 9 */
+    -webkit-transform: scale(1.1,1.1); /* Safari */
+    transform: scale(1.1,1.1); /* Standard syntax */
+}
+
+
+
+#content0:hover,
+#content1:hover,
+#content2:hover,
+#content3:hover,
+#content4:hover,
+#content5:hover {
+    background-color: black;
+    color: white;
+    transition: background-color 1.2s ease;
+    transition: color 0.7s ease;
+
+};
+
+
+
