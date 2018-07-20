@@ -16,18 +16,40 @@ h1.text-center {
 }
 
 
+#image0,
+#image1,
+#image2,
+#image3,
+#image4,
+#image5 {
+    opacity: 1;
+    -webkit-transition: transform 1.5s; /* Safari */
+    transition: transform 1.5s;
+}
+
+
+
 #image0:hover,
 #image1:hover,
 #image2:hover,
 #image3:hover,
 #image4:hover,
 #image5:hover {
-    opacity: 0.8;
-    -ms-transform: scale(1.1,1.1); /* IE 9 */
-    -webkit-transform: scale(1.1,1.1); /* Safari */
-    transform: scale(1.1,1.1); /* Standard syntax */
+    opacity: 0.6;
+    -ms-transform: scale(1.09,1.09); /* IE 9 */
+    -webkit-transform: scale(1.09,1.09); /* Safari */
+    transform: scale(1.09,1.09); /* Standard syntax */
 }
 
+
+#content0,
+#content1,
+#content2,
+#content3,
+#content4,
+#content5 {
+    transition: all 0.5s ease-in;
+}
 
 
 #content0:hover,
@@ -38,9 +60,6 @@ h1.text-center {
 #content5:hover {
     background-color: black;
     color: white;
-    transition: background-color 1.2s ease;
-    transition: color 0.7s ease;
-
 };
 
 
